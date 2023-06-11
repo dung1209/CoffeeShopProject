@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/trangchu.css">
+    <script src="/js/trangchu.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-o5KPmbANR3EuEJQZw4MOTs7dqYPqSS4lYpI3Z0lXUrOBUOzo1GkUYJ3nS4RGRzMI" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <title>Trang chủ</title>
+
+</head>
+<body>
+
+    <div class="my-class">Chào mừng bạn đến thế giới Coffee của chúng tôi!</div>
+
+    <div class="logo">
+        <div class="container">
+            <div>
+                <div class="logo-right col-md-offset-3">
+                    <div class="search-shopping-box">
+                        <div class="logo-left">
+                            <a class="bb-logo" href="/trangchu">
+                                <img src="/img/foody-logo.png" title="Nhà sách trực tuyến BookBuy" alt="Nhà sách trực tuyến BookBuy">
+                            </a>
+                        </div>
+                        <div class="search-new-box col-md-6">
+                            <div class="input-group">
+                                <i class="fas fa-search"></i>
+                                <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" name="Term" id="Term" autocomplete="off" placeholder="Nhập từ khoá để tìm kiếm" class="form-control ui-autocomplete-input">
+                                <div class="input-group-btn">
+                                    <button type="button" class="search button-search"><span class="search1 icon-ic_search_24px"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hot-line col-md-3">
+                            <div class="square-frame">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                        </div>  
+                        <div class="account-info">
+                            <p>TÀI KHOẢN</p>
+                            <div class="button-group">
+                              <button class="login-button">Đăng nhập</button>
+                              <button class="register-button">Đăng ký</button>
+                            </div>
+                        </div>
+
+
+                        <div class="modal hide">
+                            <div class="modal_inner">
+                                <div class="modal_header">
+                                    <p>Đăng ký tài khoản</p>
+                                    <i class="fas fa-times"></i>
+                                </div>
+                                <div class="modal_body">
+                                    <div class="row">
+                                        <div class="row">
+                                          <div class="col-md-6 mb-3">
+                                            <label for="fullName">Họ và tên</label>
+                                            <input type="text" class="form-control" name="fullName" placeholder="Nhập họ và tên" required />
+                                          </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="email">Email</label>
+                                                <input type="tel" class="form-control" name="email" placeholder="Nhập email" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="password">Mật khẩu</label>
+                                                <div class="input-group">
+                                                  <input type="password" class="form-control" name="password" placeholder="Nhập mật khẩu" required />
+                                                  <div class="input-group-append">
+                                                    <button class="btn btn-outline-secondary" type="button" onclick="togglePassword()">
+                                                      <i class="fa fa-eye"></i>
+                                                    </button>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="password">Xác nhận mật khẩu</label>
+                                                <div class="input-group">
+                                                  <input type="password" class="form-control" name="password" placeholder="Nhập xác nhận mật khẩu" required />
+                                                  <div class="input-group-append">
+                                                    <button class="btn btn-outline-secondary" type="button" onclick="togglePassword()">
+                                                      <i class="fa fa-eye"></i>
+                                                    </button>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="phone">Số điện thoại</label>
+                                                <input type="phone" class="form-control" name="phone" placeholder="Nhập số điện thoại" required />
+                                            </div>
+                                        </div>                         
+                                    </div>
+                                </div>
+                                <div class="modal_footer">
+                                    <button class="btn btn-primary" type="submit">Đăng ký</button>
+                                    <button class="btn btn-primary" type="submit">Thoát</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="container-topbar">
+        <div class="topbar">
+            <p>DANH MỤC SẢN PHẨM</p>
+            <i class="fas solid fa-list"></i>
+            <a href="/" class="current" rel="home">TRANG CHỦ</a>
+            <a href="/" class="current" rel="home">GIỚI THIỆU</a>
+            <a href="/" class="current" rel="home">SẢN PHẨM</a>  
+            <a href="/" class="current" rel="home">TIN TỨC</a>  
+        </div>
+    </div>
+
+    <div class="container1">
+        <div class="column">
+            <table>
+                <tr>
+                  <td>CÀ PHÊ PHIN</td>
+                </tr>
+                <tr>
+                  <td>CÀ PHÊ ESPRESSO</td>
+                </tr>
+                <tr>
+                  <td>FREZZE CÀ PHÊ PHIN</td>
+                </tr>
+                <tr>
+                  <td>FREZZE KHÔNG CÀ PHÊ</td>
+                </tr>
+                <tr>
+                  <td>TRÀ</td>
+                </tr>
+            </table>              
+        </div>
+        <div class="column">
+            <div class="slider">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img id="img" onclick="changeImage()" src="/img/anh1.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <div class="my-class1">SẢN PHẨM HOT</div>
+<!-------------------------------------------------------------------->
+<script>
+    var btnOpen = document.querySelector('.register-button');
+    var modal = document.querySelector('.modal');
+    var iconClose = document.querySelector('.modal_header i');
+    var btnClose = document.querySelector('.modal_footer button:nth-child(2)');
+
+    function toggleModal() {
+        modal.classList.toggle('hide');
+    }
+
+    btnOpen.addEventListener('click', toggleModal);
+    btnClose.addEventListener('click', toggleModal);
+    iconClose.addEventListener('click', toggleModal);
+    modal.addEventListener('click', function(e) {
+        if (e.target == modal) { 
+            toggleModal();
+        }
+    });   
+</script>
+<!-------------------------------------------------------------------->
+
+</body>
+
+</html> 
